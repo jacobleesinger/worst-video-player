@@ -94,9 +94,30 @@
 				></canvas>
 			</section>
 
-			<section>
-				<button onclick={play} class="btn btn-primary round">A</button>
-				<button onclick={pause} class="btn btn-primary round">B</button>
+			<section class="mt-10 flex w-full justify-around">
+				<section class=" dpad grid grid-cols-3 gap-1 p-1">
+					<button class="btn btn-primary col-start-2 h-6 w-6 p-2 shadow-md"></button>
+					<div></div>
+					<!-- Empty cell -->
+					<button class="btn btn-primary h-6 w-6 p-2 shadow-md"></button>
+					<div class="bg-primary h-6 w-6 p-2"></div>
+					<button class="btn btn-primary h-6 w-6 p-2 shadow-md"></button>
+					<div></div>
+
+					<button class="btn btn-primary col-start-2 h-6 w-6 p-2 shadow-md"></button>
+				</section>
+
+				<section class="a-b">
+					<button onclick={pause} class="btn btn-primary round mt-6 mr-4 shadow-lg">B</button>
+					<button onclick={play} class="btn btn-primary round shadow-lg">A</button>
+				</section>
+			</section>
+
+			<section class="mt-50">
+				<section class="start-select">
+					<button class="btn btn-primary h-2 w-6 p-0"></button>
+					<button class="btn btn-primary h-2 w-6 p-0"></button>
+				</section>
 			</section>
 		</section>
 	</section>
