@@ -94,6 +94,10 @@
 				></canvas>
 			</section>
 
+			<section>
+				<section class="mt-4 rounded-xl border-2 px-2 py-1">Video Boy COLOR</section>
+			</section>
+
 			<section class="mt-10 flex w-full justify-around">
 				<section class=" dpad grid grid-cols-3 gap-1 p-1">
 					<button class="btn btn-primary col-start-2 h-6 w-6 p-2 shadow-md"></button>
